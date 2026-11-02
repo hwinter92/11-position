@@ -3,6 +3,11 @@ html {
     font-family: "National Park", sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 code {
     background-color: rgba(182, 132, 182, 0.2);
     color: purple;
@@ -16,7 +21,9 @@ code {
 
 .site-nav {
     background-color: plum;
-    max-width: 800px;
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 10px, 0;
 }
 
 .site-links {

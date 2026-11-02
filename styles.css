@@ -1,0 +1,49 @@
+html {
+    background-color: lavenderblush;
+    font-family: "National Park", sans-serif;
+}
+
+.site-nav {
+    background-color: plum;
+}
+
+.site-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.site-link {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.site-link:hover {
+    background-color: rgb(182, 132, 182);
+}
+
+.dropdown {
+    background-color: rgb(255, 227, 236);
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.dropdown-link {
+    display: block;
+    padding: 10px 30px;
+    color: purple;
+    text-decoration: none;
+}
+
+.dropdown-link:hover {
+    background-color: rgb(233, 184, 200);
+}
+
+.has-dropdown:hover .dropdown {
+    display: block;
+}

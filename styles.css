@@ -3,14 +3,28 @@ html {
     font-family: "National Park", sans-serif;
 }
 
+code {
+    background-color: rgba(182, 132, 182, 0.2);
+    color: purple;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.paragraph {
+    padding-bottom: 20px;
+}
+
 .site-nav {
     background-color: plum;
+    max-width: 800px;
 }
 
 .site-links {
     display: flex;
     list-style-type: none;
     padding: 0;
+    justify-content: center;
+    gap: 60px;
 }
 
 .site-link {
@@ -46,4 +60,14 @@ html {
 
 .has-dropdown:hover .dropdown {
     display: block;
+}
+
+.top-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.main {
+    max-width: 600px;
+    margin: 0 auto;
 }
